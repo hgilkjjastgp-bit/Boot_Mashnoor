@@ -380,5 +380,5 @@ client.on('messageCreate', async message => {
 
 // ============================================
 // تشغيل البوت بالتوكن من .env
-// ============================================
-client.login(CONFIG.TOKEN);
+// =======================
+client.login(process.env.DISCORD_TOKEN);
